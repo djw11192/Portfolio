@@ -2,10 +2,15 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^0.3.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
 }
