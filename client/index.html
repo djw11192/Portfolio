@@ -5,6 +5,7 @@
     <title>David Weber</title>
     <link rel="stylesheet" href="/lib/bootstrap-3.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="/css/fonts/RockSalt.ttf" rel="stylesheet" type="text/css">
     <script src="/js/angular.js" charset="utf-8"></script>
     <script src="/lib/angular-ui-router.js"></script>
     <script src="/lib/ui-bootstrap.js"></script>
@@ -13,24 +14,22 @@
   </head>
   <body>
     <!-- Start of nav -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default navbarCustom">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#">D.W.</a>
         </div>
 
         <ul class="nav navbar-nav navbar-right">
-          <li class="navPadding"><a ui-sref="home">Home</a></li>
-          <li class="navPadding"><a ui-sref="about">About Me</a></li>
-          <li class="navPadding"><a ui-sref="projects">Projects</a></li>
-          <li class="navPadding"><a ui-sref="contact">Contact</a></li>
+          <li class="navPadding"ui-sref="home">Home</li>
+          <li class="navPadding"ui-sref="about">About Me</li>
+          <li class="navPadding" ui-sref="projects">Projects</li>
+          <li class="navPadding" ui-sref="contact">Contact</li>
         </ul>
       </div><!-- /.container-fluid -->
     </nav>
     <!-- End of nav -->
-  <div class="container">
     <div ui-view></div>
-  </div>
 
   </body>
 </html>

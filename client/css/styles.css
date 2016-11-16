@@ -1,6 +1,77 @@
 .navPadding{
-  padding: 15px 35px;
+  padding: 15px 30px;
+}
+li:hover{
+  background-color: #2f2f2f;
+  cursor: pointer;
+  color: white;
 }
 .navbar-brand{
-  padding-top: 30px;
+  padding-top: 10px;
+}
+body{
+  background-image: url("./images/computer.jpg");
+  background-size: cover;
+  font-family: 'Cinzel'
+}
+html, body, .splash{
+  min-height: 100%;
+}
+.navbarCustom{
+  margin-bottom: 0px;
+}
+.navbar-brand{
+  font-family: 'Rock Salt';
+}
+@font-face {
+  font-family: 'Rock Salt';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rock Salt'), local('RockSalt'), url('./fonts/RockSalt.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cinzel-Regular'), url('./fonts/Cinzel-Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+.name{
+  font-size: 60px;
+  padding-top: 100px;
+  color: white;
+}
+.role{
+  font-size: 40px;
+  color: white;
+}
+.feed{
+  margin-top: 20px;
+  background-color: white;
+}
+#projectOnePic{
+  background-image: url("./images/Jumpball.png");
+}
+#projectTwoPic{
+  background-image: url("./images/markers-pic.png");
+}
+#projectThreePic{
+  background-image: url("./images/word-game.png");
+}
+#projectFourPic{
+  background-image: url("./images/iphone.png");
+  margin: 0 auto;
+}
+.projectPics{
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
+  margin-top: 50px;
+}
+.section{
+  min-height: 100%;
+}
+.underline{
+  text-decoration: underline;
 }
