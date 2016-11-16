@@ -1,7 +1,7 @@
 .navPadding{
   padding: 15px 30px;
 }
-li:hover{
+.navPadding:hover{
   background-color: #2f2f2f;
   cursor: pointer;
   color: white;
@@ -60,8 +60,11 @@ html, body, .splash{
   background-image: url("./images/word-game.png");
 }
 #projectFourPic{
-  background-image: url("./images/iphone.png");
-  margin: 0 auto;
+  background-image: url("./images/bill-example.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 50px;
 }
 .projectPics{
   background-size: contain;
@@ -74,4 +77,23 @@ html, body, .splash{
 }
 .underline{
   text-decoration: underline;
+}
+.aboutMe{
+  text-indent: 14px;
+  font-family: helvetica;
+  line-height: 150%;
+}
+.helvetica{
+  font-family: "helvetica";
+}
+.btnRow{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.topSpacing{
+  margin-top: 100px;
+}
+.btnSpacing{
+  padding: 30px;
 }

@@ -23,3 +23,16 @@ angular.module('portfolio', ['ui.router'])
 
       })
     })
+
+  .controller('ContactController', ContactController)
+
+  ContactController.$inject = ['$http']
+
+  function ContactController($http){
+    var vm = this
+
+    vm.sendMessage = function(){
+      console.log(vm.newMessage)
+      $http.post('/api/contact', JSON.stringify(vm.newMessage))
+    }
+  }
