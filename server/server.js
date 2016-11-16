@@ -39,10 +39,6 @@ app.post('/api/contact', function(req, res) {
   })
 });
 
-var
-  express = require('express'),
-  app = express();
-
 
 
 app.listen(app.get('port'), function () {
